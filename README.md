@@ -1,8 +1,8 @@
 # Horas para a Copa
 
-Um contador em clima brasileiro para acompanhar quantas horas faltam para o jogo de abertura da Copa do Mundo 2026.
+Uma agenda em clima brasileiro para acompanhar os jogos da Copa do Mundo 2026.
 
-O projeto foi feito como uma homepage simples, vibrante e responsiva, com visual inspirado no Brasil rumo ao hexa: verde, amarelo, azul, estrelas do penta e uma sexta estrela em contorno.
+O projeto começou como um contador para a abertura e foi atualizado após o início do torneio. Agora a homepage mostra o calendário da fase de grupos, resultados recentes e destaque para o próximo jogo do Brasil, mantendo o visual rumo ao hexa: verde, amarelo, azul, estrelas do penta e uma sexta estrela em contorno.
 
 ## Link publicado
 
@@ -10,19 +10,16 @@ O projeto foi feito como uma homepage simples, vibrante e responsiva, com visual
 
 ## O que tem aqui
 
-- Contador principal com as horas completas restantes.
-- Contagem detalhada em dias, horas, minutos e segundos.
-- Data do jogo de abertura em horário de Brasília.
+- Calendário de jogos em horário de Brasília.
+- Destaque para o próximo jogo.
+- Selo especial para jogo do Brasil.
+- Resultados recentes da fase de grupos.
 - Layout responsivo para desktop e celular.
 - Design estático e leve, sem backend.
 
-## Jogo de referência
+## Dados da agenda
 
-O contador usa como alvo o jogo de abertura:
-
-**México x África do Sul**  
-**11 de junho de 2026, às 16:00 (horário de Brasília)**  
-**11 de junho de 2026, às 13:00 na Cidade do México**
+Os jogos foram organizados a partir da agenda publicada em Eastern Time e convertidos para o horário de Brasília. A última atualização manual registrada no app é **22 de junho de 2026**.
 
 ## Tecnologias
 
@@ -60,6 +57,6 @@ O resultado fica na pasta `dist`.
 └── README.md
 ```
 
-## Observação sobre o contador
+## Observação
 
-O número grande mostra horas completas restantes. Por exemplo, se faltam `22h 12min`, o contador principal mostra `22`, enquanto os cards detalham os minutos e segundos.
+Este é um projeto estático. Para manter resultados e horários sempre atuais, é preciso atualizar a lista de jogos em `src/main.jsx`.
