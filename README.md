@@ -1,8 +1,8 @@
 # Horas para a Copa
 
-Uma agenda em clima brasileiro para acompanhar os jogos da Copa do Mundo 2026.
+Um resumo em clima brasileiro do encerramento da Copa do Mundo 2026.
 
-O projeto começou como um contador para a abertura e foi atualizado após o início do torneio. Agora a homepage mostra o calendário da fase de grupos, resultados recentes e destaque para o próximo jogo do Brasil, mantendo o visual rumo ao hexa: verde, amarelo, azul, estrelas do penta e uma sexta estrela em contorno.
+O projeto começou como um contador para a abertura, virou calendário durante o torneio e agora mostra o campeão, placar da final e pódio da Copa 2026, mantendo o visual rumo ao hexa: verde, amarelo, azul, estrelas do penta e uma sexta estrela em contorno.
 
 ## Link publicado
 
@@ -10,16 +10,22 @@ O projeto começou como um contador para a abertura e foi atualizado após o in�
 
 ## O que tem aqui
 
-- Calendário de jogos em horário de Brasília.
-- Destaque para o próximo jogo.
-- Selo especial para jogo do Brasil.
-- Resultados recentes da fase de grupos.
+- Campeã da Copa 2026 em destaque.
+- Placar da final: Espanha 1 x 0 Argentina.
+- Informação de que a decisão foi após a prorrogação.
+- Pódio final com Espanha, Argentina e Inglaterra.
 - Layout responsivo para desktop e celular.
 - Design estático e leve, sem backend.
 
-## Dados da agenda
+## Resultado final
 
-Os jogos foram organizados a partir da agenda publicada em Eastern Time e convertidos para o horário de Brasília. A última atualização manual registrada no app é **22 de junho de 2026**.
+**Campeã:** Espanha  
+**Final:** Espanha 1 x 0 Argentina  
+**Detalhe:** vitória após a prorrogação  
+**Estádio:** New York New Jersey Stadium  
+**Atualizado em:** 27 de julho de 2026
+
+Fonte principal: [FIFA - Final tournament standings](https://www.fifa.com/en/articles/final-tournament-standings)
 
 ## Tecnologias
 
@@ -59,4 +65,4 @@ O resultado fica na pasta `dist`.
 
 ## Observação
 
-Este é um projeto estático. Para manter resultados e horários sempre atuais, é preciso atualizar a lista de jogos em `src/main.jsx`.
+Este é um projeto estático. Para alterar o resumo final ou adicionar mais dados do torneio, edite `src/main.jsx`.
