@@ -8,6 +8,16 @@ O projeto começou como um contador para a abertura, virou calendário durante o
 
 [horas-para-copa.vercel.app](https://horas-para-copa.vercel.app)
 
+## Screenshots
+
+### Desktop
+
+![Screenshot desktop do resumo final da Copa 2026](docs/screenshots/desktop.png)
+
+### Mobile
+
+![Screenshot mobile do resumo final da Copa 2026](docs/screenshots/mobile.png)
+
 ## O que tem aqui
 
 - Campeã da Copa 2026 em destaque.
@@ -57,6 +67,10 @@ O resultado fica na pasta `dist`.
 .
 ├── index.html
 ├── package.json
+├── docs
+│   └── screenshots
+│       ├── desktop.png
+│       └── mobile.png
 ├── src
 │   ├── main.jsx
 │   └── styles.css
